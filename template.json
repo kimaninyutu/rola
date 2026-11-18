@@ -1,0 +1,25 @@
+{
+  "id": "rolla-dashboard",
+  "name": "Rolla Dashboard",
+  "description": "Full-stack React dashboard with optional database support",
+  "capabilities": [
+    "server",
+    "db",
+    "dashboard"
+  ],
+  "files": [
+    "package.json",
+    "drizzle/schema.ts",
+    "server/db.ts",
+    "server/routers.ts",
+    "client/index.html",
+    "client/src/App.tsx",
+    "client/src/lib/trpc.ts",
+    "client/src/pages/Home.tsx",
+    "server/_core/index.ts"
+  ],
+  "source": {
+    "repository": "local/rolla",
+    "path": "."
+  }
+}
